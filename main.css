@@ -1,0 +1,74 @@
+body {
+    background:#999;
+    font-family: arial;
+}
+
+header {
+    background-color: navy;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+header h1 {
+    color: whitesmoke;
+    display: inline;
+}
+
+list1 ul{
+    margin: 0;
+    display:inline;
+}
+
+list1 ul li{
+    color: whitesmoke;
+    background: #444;
+    text-emphasis-color: whitesmoke;
+    display: inline-block;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 7px;
+    padding: 7px;
+}   
+
+a {
+    color:whitesmoke;
+}
+
+.secondary{
+    background: none;
+    color: #777;
+}
+
+nav img{
+    max-height:480px;
+    max-width: 240px;
+    height: fit-content;
+    width: fit-content;
+    display:inline
+}
+nav body2 {
+    color:whitesmoke;
+    background-color: #444;
+    border-radius: 5px;
+    padding:10px;
+}
+
+/* Boy Scout Project page */
+pic2 img{
+    max-width: 720px;
+    max-height: 360px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+
+/* Monkey's Page */
+pic3 img{
+    max-width: 360px;
+    max-height: 720px;
+    height: fit-content;
+    width: fit-content;
+    
+}
