@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: purple;
+    background-color: navy;
     border-radius: 20px;
     padding: 20px;
     
@@ -62,7 +62,7 @@ pic2 img{
     width: fit-content;
 }
 
-Project_Summary body3 nav{
+Project_Summary nav{
     text-align: center;
     color:whitesmoke;
     background-color: #444;
