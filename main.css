@@ -60,9 +60,23 @@ pic2 img{
     max-height: 360px;
     height: fit-content;
     width: fit-content;
-    
 }
 
+Project_Summary body{
+    text-align: center;
+    color:whitesmoke;
+    background-color: #444;
+    border-radius: 5px;
+    padding:10px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 
 /* Monkey's Page */
 pic3 img{
