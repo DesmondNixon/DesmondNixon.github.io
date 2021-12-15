@@ -4,10 +4,19 @@
     <head>
         <title>My Eagle Scout Project</title>
         <link href="main.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            body {
+              background-color: #999;
+            }
+            .dark-mode {
+              background-color: black;
+            }
+          </style>
     
     </head>
         
-    <body>
+    <body><light>
             <header><h1><strong>My Eagle Scout Project</strong></h1>   <!-- Title-->
             <list1><ul>
                 <li> <a href="https://www.youtube.com/channel/UCfCUldnUF3xu4N1bhLBKNRQ">My Youtube Page</a></li>
@@ -16,7 +25,11 @@
                 
                 <li><a href="Monkey.html">Click to see the monkey!</a></li>
 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="Home.html">Home</a></li>
+
+                <div>
+                    <button class="button button1" onclick="darkMode()">Darkmode</button>
+                </div>
             </ul></header>
             </list1>
 
@@ -38,11 +51,16 @@
            
     
             
+            <script>
+                function darkMode() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                }
+            </script>
     
     
     
-    
-    </body>
+    </light></body>
 
 
 </html>
