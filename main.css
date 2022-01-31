@@ -1,112 +1,112 @@
-
 body {
-    background:#999;
-    font-family: arial;
+  background: #999;
+  font-family: arial;
 }
 .button {
-    background-color: #444;
-    border-radius: 5px;
-    color: whitesmoke;
-    padding: 7px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    list-style-type: none;
-    margin: 7px;
-  }
+  background-color: #444;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+  margin: 7px;
+}
 
-  header {
-    background-color: navy;
-    border-radius: 20px;
-    padding: 20px;
-    
+header {
+  background-color: navy;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 header h1 {
-    color: whitesmoke;
-    display: inline;
+  color: whitesmoke;
+  display: inline;
 }
 
-list1 ul{
-    margin: 0;
-    display:inline;
+list1 ul {
+  margin: 0;
+  display: inline;
 }
 
-list1 ul li{
-    color: whitesmoke;
-    background: #444;
-    text-emphasis-color: whitesmoke;
-    display: inline-block;
-    border-radius: 5px;
-    list-style-type: none;
-    margin: 7px;
-    padding: 7px;
-}   
+list1 ul li {
+  color: whitesmoke;
+  background: #444;
+  text-emphasis-color: whitesmoke;
+  display: inline-block;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 7px;
+  padding: 7px;
+}
 
 a {
-    color:whitesmoke;
+  color: whitesmoke;
 }
 
-list2 ul li{
-    color: whitesmoke;
-    background: #444;
-    text-emphasis-color: whitesmoke;
-    display: inline-block;
-    border-radius: 5px;
-    list-style-type: none;
-    margin: 7px;
-    padding: 7px;
-}   
-
-.secondary{
-    background: none;
-    color: #777;
+list2 ul li {
+  color: whitesmoke;
+  background: #444;
+  text-emphasis-color: whitesmoke;
+  display: inline-block;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 7px;
+  padding: 7px;
 }
 
-nav img{
-    max-height:480px;
-    max-width: 240px;
-    height: fit-content;
-    width: fit-content;
+.secondary {
+  background: none;
+  color: #777;
+}
+
+nav img {
+  max-height: 480px;
+  max-width: 240px;
+  height: fit-content;
+  width: fit-content;
 }
 body2 nav {
-    text-align: center;
-    color:whitesmoke;
-    background-color: #444;
-    border-radius: 5px;
-    padding:10px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #444;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* Boy Scout Project page */
-pic2 img{
-    max-width: 720px;
-    max-height: 360px;
-    height: fit-content;
-    width: fit-content;
+pic2 img {
+  max-width: 720px;
+  max-height: 360px;
+  height: fit-content;
+  width: fit-content;
 }
 
-Project_Summary nav{
-    text-align: center;
-    color:whitesmoke;
-    background-color: #444;
-    border-radius: 5px;
-    padding:10px;
-
+/* Main Body Text */
+Project_Summary nav {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #444;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img{
-    display: block;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+img {
+  display: block;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /* Monkey's Page */
-pic3 img{
-    max-width: 360px;
-    max-height: 720px;
-    height: fit-content;
-    width: fit-content;
-    
+pic3 img {
+  max-width: 360px;
+  max-height: 720px;
+  height: fit-content;
+  width: fit-content;
 }
