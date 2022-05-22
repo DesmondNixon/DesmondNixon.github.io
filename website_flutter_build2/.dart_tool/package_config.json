@@ -212,13 +212,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "website_flutter_build",
+      "name": "website_flutter_build2",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-05-19T04:17:17.497232Z",
+  "generated": "2022-05-22T16:20:56.291367Z",
   "generator": "pub",
   "generatorVersion": "2.18.0-66.0.dev"
 }

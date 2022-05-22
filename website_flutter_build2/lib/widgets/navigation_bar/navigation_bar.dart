@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:website_flutter_build/views/Eagle%20Scout%20Project/EagleScoutProject.dart';
-import 'package:website_flutter_build/views/Home_main/Home_main.dart';
-import 'package:website_flutter_build/views/Settings/Settings.dart';
+import 'package:website_flutter_build2/views/Eagle%20Scout%20Project/EagleScoutProject.dart';
+import 'package:website_flutter_build2/views/Home_main/Home_main.dart';
+import 'package:website_flutter_build2/views/Settings/Settings.dart';
 
 class NavigationBars extends StatelessWidget {
   const NavigationBars({Key? key}) : super(key: key);
