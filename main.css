@@ -113,3 +113,16 @@ pic3 img {
   height: fit-content;
   width: fit-content;
 }
+
+
+.linkToHUNGIE ul li{
+  color: whitesmoke;
+    background: #444;
+    text-emphasis-color: whitesmoke;
+    display: inline-block;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 7px;
+    padding: 7px;
+  
+}
