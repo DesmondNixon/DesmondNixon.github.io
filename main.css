@@ -12,6 +12,7 @@ body {
   display: inline-block;
   list-style-type: none;
   margin: 7px;
+  text-decoration: none;
 }
 
 header {
@@ -39,10 +40,12 @@ list1 ul li {
   list-style-type: none;
   margin: 7px;
   padding: 7px;
+  text-decoration: none;
 }
 
 a {
   color: whitesmoke;
+  text-decoration: none;
 }
 
 list2 ul li {
