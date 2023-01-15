@@ -126,3 +126,21 @@ pic3 img {
     padding: 7px;
   
 }
+
+.contact_info{
+text-align: center;
+  color: whitesmoke;
+  background-color: #444;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_info ul li {
+  list-style-type: none;
+}
+.contact_info ul li a{
+  list-style-type: none;
+  color: lightblue;
+}
