@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/Header_Background1.jpg');
+        background: url('../images/Header_Background2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 180px;
@@ -315,6 +315,8 @@ h1,h2,h3,h4,h5
         height: 100%;
         position: absolute;
         padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
         transition: all 0.4s ease-in-out;
     }
 #portfolio .portfolio-thumb:hover .portfolio-overlay
