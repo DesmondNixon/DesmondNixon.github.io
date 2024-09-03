@@ -94,8 +94,8 @@
             //scrolling
             css3: true,
             scrollingSpeed: 700,
-            autoScrolling: true,
-            fitToSection: true,
+            autoScrolling: false,
+            fitToSection: false,    // This enables/disables the "snap to section while user is scrolling" effect.
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
@@ -189,7 +189,7 @@
 
                 //scrolling the page to the section with no animation
                 if (element.length) {
-                    $htmlBody.scrollTop(element.position().top);
+                    // $htmlBody.scrollTop(element.position().top);
                 }
             }
 
