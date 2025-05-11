@@ -13,11 +13,11 @@ export const Home = () => {
 						Hi, I'm Desmond
 					</h1>
 
-					<div className="mx-auto w-55 h-70 rounded-full overflow-hidden relative">
+					<div className="mx-auto w-50 h-60 rounded-full overflow-hidden relative">
 						<img src={MainPic} alt="Profile" className="absolute top-[-65%] left-0 w-full h-auto" />
 					</div>
 
-					<p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+					<p className="text-gray-400 text-lg mb-8 max-w-4xl mx-auto">
 						I'm a fourth-year Computer Engineering student at the University of Waterloo, with a passion for
 						building software that solves real-world problems and creates meaningful impact.
 						<br></br>
