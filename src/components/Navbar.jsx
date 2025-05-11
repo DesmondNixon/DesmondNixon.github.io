@@ -11,7 +11,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 					{/* Logo/left justified content */}
 					<a href="#home" className="font-mono text-xl font-bold text-white">
 						{" "}
-						Desmond<span className="text-yellow-500"> Nixon</span>{" "}
+						Desmond<span className="text-yellow-500"> 4th Year Computer Engineering</span>{" "}
 					</a>
 
 					{/* Hamburger menu icon for mobile*/}
