@@ -6,24 +6,35 @@ import MainPic from "../../assets/MainPic.jpg";
 
 export const Home = () => {
 	return (
-		<section id="home" className="min-h-screen flex items-center justify-center relative">
+		<section
+			id="home"
+			className="min-h-screen flex items-center justify-center relative"
+		>
 			<RevealOnScroll>
 				<div className="text-center z-10 px-4">
 					<h1 className="text-5xl md:text-7xl pt-sans-regular font-bold mb-6 bg-gradient-to-r from-yellow-700 to-yellow-300 bg-clip-text text-transparent leading-right">
 						Hi, I'm Desmond
 					</h1>
 
-					<div className="mx-auto w-50 h-60 rounded-full overflow-hidden relative">
-						<img src={MainPic} alt="Profile" className="absolute top-[-65%] left-0 w-full h-auto" />
+					<div className="mx-auto w-50 h-70 rounded-full overflow-hidden relative">
+						<img
+							src={MainPic}
+							alt="Profile"
+							className="absolute top-[-10%] left-0 w-full h-auto"
+						/>
 					</div>
 
 					<p className="text-gray-400 text-lg mb-8 max-w-4xl mx-auto">
-						I'm a fourth-year Computer Engineering student at the University of Waterloo, with a passion for
-						building software that solves real-world problems and creates meaningful impact.
+						I'm a fourth-year Computer Engineering student at the
+						University of Waterloo, with a passion for building
+						software that solves real-world problems and creates
+						meaningful impact.
 						<br></br>
 						<br></br>
-						Feel free to explore my experiences, skills, and testimonials below. If you'd like to connect,
-						drop me a message through the contact form - I'd love to hear from you.
+						Feel free to explore my experiences, skills, and
+						testimonials below. If you'd like to connect, drop me a
+						message through the contact form - I'd love to hear from
+						you.
 					</p>
 					<div className="flex justify-center space-x-4">
 						<a
@@ -79,9 +90,21 @@ export const Home = () => {
 					</a>
 				</div>
 				<div className="mt-6 flex justify-center space-x-6 gap-6 text-yellow-400 text-2xl">
-					<img src="https://flagcdn.com/us.svg" alt="USA" className="w-8 h-5" />
-					<img src="https://flagcdn.com/ca.svg" alt="Canada" className="w-8 h-5" />
-					<img src="https://flagcdn.com/ie.svg" alt="Ireland" className="w-8 h-5" />
+					<img
+						src="https://flagcdn.com/us.svg"
+						alt="USA"
+						className="w-8 h-5"
+					/>
+					<img
+						src="https://flagcdn.com/ca.svg"
+						alt="Canada"
+						className="w-8 h-5"
+					/>
+					<img
+						src="https://flagcdn.com/ie.svg"
+						alt="Ireland"
+						className="w-8 h-5"
+					/>
 				</div>
 			</RevealOnScroll>
 		</section>
